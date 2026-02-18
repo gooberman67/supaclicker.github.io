@@ -140,21 +140,24 @@ upgradeClickButton.addEventListener('touchstart', () => {
 //Red delete button :)
 const abortButton = document.createElement("button");
 
-abortButton.style.background-color = "Red"
+abortButton.style.background-color = "Red";
 abortButton.textContent = "DELETE TAB (ACTUALLY WORKS)";
 abortButton.style.color = "white";
 abortButton.style.position = "absolute";
 abortButton.style.top = "5%";
 abortButton.style.left = "50%";
+abortButton.style.width = "50%";
+abortButton.style.height = "15%";
 
-document.body.append(abortButton)
+document.body.append(abortButton);
 
 abortButton.addEventListener('click', () => {
-    window.close()
+    window.close();
 })
 
     </script>
 </html>
+
 
 
 
