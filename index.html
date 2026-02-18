@@ -136,5 +136,23 @@ upgradeClickButton.addEventListener('touchstart', () => {
         upgradeClickButton.textContent = "Upgrade Click Value " + "(" + String(upgradeCost) + ")";
     }
 })
+
+//Red delete button :)
+const abortButton = document.createElement("button");
+
+abortButton.style.background-color = "Red"
+abortButton.textContent = "DELETE TAB (ACTUALLY WORKS)";
+abortButton.style.color = "white";
+abortButton.style.position = "absolute";
+abortButton.style.top = "5%";
+abortButton.style.left = "50%";
+
+document.body.append(abortButton)
+
+abortButton.addEventListener('click', () => {
+    window.close()
+    }
+
     </script>
 </html>
+
